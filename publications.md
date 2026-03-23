@@ -15,7 +15,7 @@ title: Publications
 ### 2025
 
 - Kim, Semi and Jonny Jungyun Kim.  
-  **[Diachronic Shifts in the Discourse of Korean Film International Awards in British and American Media Headlines: An Appreciation Analysis Based on Appraisal Theory](PASTE-LINK-HERE).**  
+  **[Diachronic Shifts in the Discourse of Korean Film International Awards in British and American Media Headlines: An Appreciation Analysis Based on Appraisal Theory]([PASTE-LINK-HERE](https://www.kci.go.kr/kciportal/mobile/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003279490)).**  
   *The Journal of Foreign Studies* 74, 425–452.
 
 - Kim, Semi and Jonny Jungyun Kim.  
