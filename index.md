@@ -1,3 +1,5 @@
+<img src="profile.jpg" width="180" style="border-radius: 50%;">
+
 # Jonny Kim
 
 Linguist specializing in phonetics and sociophonetics  
