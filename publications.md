@@ -29,7 +29,7 @@ title: Publications
 ### 2024
 
 - So, Hyunjung and Jonny Jungyun Kim.  
-  **[Age-indexed perceptual cue-shifting of Korean stops in various prosodic positions](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://isli.khu.ac.kr/journal/content/data/41_3/2.pdf).**  
+  **[Age-indexed perceptual cue-shifting of Korean stops in various prosodic positions](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003147893).**  
   *Linguistic Research* 41(3), 367–390.
 
 - Kim, Jonny Jungyun, Sahyang Kim, and Taehong Cho.  
@@ -37,7 +37,7 @@ title: Publications
   *Laboratory Phonology* 15(1).
 
 - Kim, Jonny Jungyun.  
-  **[Prosodically conditioned VOT merger of Korean stops examined in verse-style broad-focus speech](https://www.kci.go.kr/kciportal/po/search/poTotalSearList.kci).**  
+  **[Prosodically conditioned VOT merger of Korean stops examined in verse-style broad-focus speech](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003052979).**  
   *Journal of Language Sciences* 31(1), 111–134.
 
 ### 2023
