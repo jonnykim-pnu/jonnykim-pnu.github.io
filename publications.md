@@ -19,25 +19,25 @@ title: Publications
   *The Journal of Foreign Studies* 74, 425–452.
 
 - Kim, Semi and Jonny Jungyun Kim.  
-  **[Acoustic Features and Translation Patterns of the Korean Interjection “Ah”: Focusing on the English SDH in* Squid Game *Season 1](PASTE-LINK-HERE).**  
+  **[Acoustic Features and Translation Patterns of the Korean Interjection “Ah”: Focusing on the English SDH in* Squid Game *Season 1](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003279800).**  
   *The Journal of Interpretation and Translation Education* 23(4), 67–88.
 
 - Kim, Semi and Jonny Jungyun Kim.  
-  **[A Study on the Translation of Off-Screen Sounds in English Subtitles for the Deaf and Hard of Hearing](PASTE-LINK-HERE).**  
+  **[A Study on the Translation of Off-Screen Sounds in English Subtitles for the Deaf and Hard of Hearing](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003245378).**  
   *The Journal of Interpretation and Translation Education* 23(2), 27–56.
 
 ### 2024
 
 - So, Hyunjung and Jonny Jungyun Kim.  
-  **[Age-indexed perceptual cue-shifting of Korean stops in various prosodic positions](PASTE-LINK-HERE).**  
+  **[Age-indexed perceptual cue-shifting of Korean stops in various prosodic positions](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://isli.khu.ac.kr/journal/content/data/41_3/2.pdf).**  
   *Linguistic Research* 41(3), 367–390.
 
 - Kim, Jonny Jungyun, Sahyang Kim, and Taehong Cho.  
-  **[Preboundary lengthening and articulatory strengthening in Korean as an edge-prominence language](PASTE-LINK-HERE).**  
+  **[Preboundary lengthening and articulatory strengthening in Korean as an edge-prominence language](https://www.journal-labphon.org/article/id/9880/).**  
   *Laboratory Phonology* 15(1).
 
 - Kim, Jonny Jungyun.  
-  **[Prosodically conditioned VOT merger of Korean stops examined in verse-style broad-focus speech](PASTE-LINK-HERE).**  
+  **[Prosodically conditioned VOT merger of Korean stops examined in verse-style broad-focus speech](https://www.kci.go.kr/kciportal/po/search/poTotalSearList.kci).**  
   *Journal of Language Sciences* 31(1), 111–134.
 
 ### 2023
