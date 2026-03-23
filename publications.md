@@ -116,7 +116,7 @@ title: Publications
 
 - Kim, Jonny and Katie Drager.  
   **[Sociophonetic realizations guide subsequent lexical access](https://doi.org/10.1111/tops.12351).**  
-  In Francisco Lacerda (Eds.), * Proceedings of Interspeech 2017*, 621–625.
+  In Francisco Lacerda (Eds.), *Proceedings of Interspeech 2017*, 621–625.
 
 ### 2015
 
