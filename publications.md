@@ -43,39 +43,39 @@ title: Publications
 ### 2023
 
 - Lee, Mijung and Jonny Jungyun Kim.  
-  **[L1 and L2 English vowel production conditioned by probabilistic accessibility of words](PASTE-LINK-HERE).**  
-  *Phonetics and Speech Sciences.*
+  **[L1 and L2 English vowel production conditioned by probabilistic accessibility of words](https://www.eksss.org/archive/view_article?pid=pss-15-1-1).**  
+  *Phonetics and Speech Sciences* 15(1), 1-7.
 
 - Kim, Chae-Eun and Jonny Jungyun Kim.  
-  **[Students’ perceptions of English-medium instruction in English linguistics courses](PASTE-LINK-HERE).**  
+  **[Students’ perceptions of English-medium instruction in English linguistics courses](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002947187).**  
   *English 21* 36(1), 319–340.
 
 ### 2022
 
 - Kim, Jonny Jungyun, Amy J. Schafer, and Katie Drager.  
-  **[Testing the influence of socio-lexical associations along the time course of spoken-word processing](PASTE-LINK-HERE).**  
+  **[Testing the influence of socio-lexical associations along the time course of spoken-word processing](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002912527).**  
   *Studies in Phonetics, Phonology and Morphology* 28(3), 387–416.
 
 - Kim, Taeho, Ki-seong Park, Jihyun Jeon, Eunji Kang, Jonny Jungyun Kim, Danielle O. Pyun, Han-gyu Lee, and Sae Youn Cho.  
-  **[A study on Korean heritage speakers’ speech errors](PASTE-LINK-HERE).**  
-  *The Journal of Linguistic Science* 103, 57–76.
+  **[A study on Korean heritage speakers’ speech errors](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002920793).**  
+  *The Journal of Linguistic Science* 103, 57–79.
 
 - Jeong, Dawoon and Jonny Jungyun Kim.  
-  **[Influences of objectivity and prosody in audio description on the comprehension of character emotions](PASTE-LINK-HERE).**  
+  **[Influences of objectivity and prosody in audio description on the comprehension of character emotions](https://journal.kci.go.kr/kats/archive/articleView?artiId=ART002909646).**  
   *The Journal of Translation Studies* 23(5), 33–55.
 
 - Kim, Mijeong and Jonny Jungyun Kim.  
-  **[Nasal Assimilation of Korean Transferred in English Speech: Focusing on Prosodic Influences](PASTE-LINK-HERE).**  
+  **[Nasal Assimilation of Korean Transferred in English Speech: Focusing on Prosodic Influences](https://www.kci.go.kr/kciportal/mobile/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002899814).**  
   *Journal of Language Sciences* 29(4), 1–22.
 
 - Kim, Jonny Jungyun and Sunghee Kim.  
-  **[Korean listeners’ English word recognition and cross-linguistic lexical competition: An experiment manipulating talker nativeness information](PASTE-LINK-HERE).**  
+  **[Korean listeners’ English word recognition and cross-linguistic lexical competition: An experiment manipulating talker nativeness information](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002813607).**  
   *Journal of Language Sciences* 29(1), 31–58.
 
 ### 2021
 
 - Kim, Jonny Jungyun and Eunji Kang.  
-  **[Phonetic variation of Korean stem-final consonant clusters beginning with a liquid](PASTE-LINK-HERE).**  
+  **[Phonetic variation of Korean stem-final consonant clusters beginning with a liquid](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002752420).**  
   *Studies in Phonetics, Phonology and Morphology* 27(2), 161–192.
 
 ### 2018
@@ -87,7 +87,7 @@ title: Publications
 ### 2016
 
 - Kim, Jonny.  
-  **[Perceptual associations between words and speaker age](PASTE-LINK-HERE).**  
+  **[Perceptual associations between words and speaker age](https://www.journal-labphon.org/article/id/6186/).**  
   *Laboratory Phonology* 7(1), 18.
 
 ### 2011
