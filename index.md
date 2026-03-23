@@ -14,16 +14,16 @@ My research focuses on sociophonetic variation, speech perception, and the inter
 
 ## Academic Output
 
-- [Publications](publications.md)
-- [Presentations](presentations.md)
+- [Publications](./publications.html)
+- [Presentations](./presentations.html)
 
 ## Teaching
 
-- [Teaching](teaching.md)
+- [Teaching](./teaching.html)
 
 ## CV
 
-- [CV](cv.md)
+- [CV](./cv.html)
 
 ## Contact
 
