@@ -19,7 +19,7 @@ title: Publications
   *The Journal of Foreign Studies* 74, 425–452.
 
 - Kim, Semi and Jonny Jungyun Kim.  
-  **[Acoustic Features and Translation Patterns of the Korean Interjection “Ah”: Focusing on the English SDH in* Squid Game *Season 1](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003279800).**  
+  **[Acoustic Features and Translation Patterns of the Korean Interjection “Ah”: Focusing on the English SDH in Squid Game Season 1](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003279800).**  
   *The Journal of Interpretation and Translation Education* 23(4), 67–88.
 
 - Kim, Semi and Jonny Jungyun Kim.  
