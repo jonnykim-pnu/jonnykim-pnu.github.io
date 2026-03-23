@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonny Jungyun Kim</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #222;
+      background: #f7f7f7;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 48px;
+      padding: 40px 32px 60px;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 32px;
+      align-self: start;
+    }
+
+    .sidebar-inner {
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      padding: 24px;
+    }
+
+    .profile-img {
+      width: 100%;
+      max-width: 180px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .name-ko {
+      font-size: 1.9rem;
+      font-weight: 700;
+      margin: 0 0 8px 0;
+      line-height: 1.2;
+    }
+
+    .name-en {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 0 0 16px 0;
+    }
+
+    .affil {
+      font-size: 0.98rem;
+      margin-bottom: 20px;
+    }
+
+    .menu-title {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #666;
+      margin: 24px 0 10px;
+    }
+
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu li {
+      margin: 8px 0;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #1f4fa3;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      padding: 40px 48px;
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: 2.3rem;
+      margin: 0 0 24px 0;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 0 0 14px 0;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    p {
+      margin: 0 0 12px 0;
+      font-size: 1.02rem;
+    }
+
+    ul.links {
+      padding-left: 22px;
+      margin: 0;
+    }
+
+    ul.links li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #1f4fa3;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .subnote {
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .content {
+        padding: 28px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img" />
+
+        <div class="name-ko">Jonny Jungyun Kim (김정윤)</div>
+        <div class="name-en">Jonny Kim</div>
+
+        <div class="affil">
+          Linguist specializing in phonetics and sociophonetics<br />
+          Department of English Language and Literature<br />
+          Pusan National University
+        </div>
+
+        <div class="menu-title">Menu</div>
+        <ul class="menu">
+          <li><a href="#research">Research</a></li>
+          <li><a href="#academic-output">Academic Output</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-title">Links</div>
+        <ul class="menu">
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="presentations.html">Presentations</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section>
+        <h1>Jonny Jungyun Kim (김정윤)</h1>
+        <p>
+          Welcome to my academic website. I am a linguist specializing in phonetics,
+          sociophonetics, psycholinguistics, and related areas of speech research.
+        </p>
+      </section>
+
+      <section id="research">
+        <h2>Research</h2>
+        <p>
+          My research focuses on sociophonetic variation, speech perception, and the
+          interaction between phonetic detail and social meaning.
+        </p>
+      </section>
+
+      <section id="academic-output">
+        <h2>Academic Output</h2>
+        <ul class="links">
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="presentations.html">Presentations</a></li>
+        </ul>
+      </section>
+
+      <section id="teaching">
+        <h2>Teaching</h2>
+        <ul class="links">
+          <li><a href="teaching.html">Teaching</a></li>
+        </ul>
+      </section>
+
+      <section id="cv">
+        <h2>CV</h2>
+        <ul class="links">
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your-email@pusan.ac.kr</p>
+        <p class="subnote">Replace this with your preferred contact address.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
