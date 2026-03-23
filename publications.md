@@ -104,13 +104,19 @@ title: Publications
 
 ---
 
-## Edited volumes and working papers
+## Other types: Working papers, chapters in edited volumes, and conference papers
 
 ### 2019
 
 - Drager, Katie, M. Joelle Kirtley, Clinton Kakela Awai, Catherine Lee, and Jonny Kim.  
   **[Speaker ethnicity, language background, and the pronunciation of Hawaiian place names](https://openaccess.blucher.com.br/article-details/01-21758/).**  
   In Marcia dos Santos Machado Vieira and Marcos Luiz Wiedemer (Eds.), *Dimensões e Experiências em Sociolinguística*. São Paulo: Blucher, 33–54.
+
+### 2017
+
+- Kim, Jonny and Katie Drager.  
+  **[Sociophonetic realizations guide subsequent lexical access](https://doi.org/10.1111/tops.12351).**  
+  In Francisco Lacerda (Eds.), * Proceedings of Interspeech 2017*, 621–625.
 
 ### 2015
 
