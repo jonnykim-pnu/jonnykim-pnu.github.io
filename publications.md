@@ -93,13 +93,13 @@ title: Publications
 ### 2011
 
 - Kim, Jung Yun and Yongeun Lee.  
-  **[A study of Korean syllable structure: Evidence from rhyming patterns in Korean contemporary rap-songs](PASTE-LINK-HERE).**  
+  **[A study of Korean syllable structure: Evidence from rhyming patterns in Korean contemporary rap-songs](https://socioling-journal.com/journal/article.php?code=93597&Array).**  
   *Sociolinguistics Journal of Korea* 19(1), 1–22.
 
 ### 2009
 
 - Kim, Haeyeon and Jung Yun Kim.  
-  **[A comparative study of repair phenomena in ESL/EFL texts and high school English textbooks](PASTE-LINK-HERE).**  
+  **[A comparative study of repair phenomena in ESL/EFL texts and high school English textbooks](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001378807).**  
   *Korean Journal of English Language and Linguistics* 9(3), 429–459.
 
 ---
@@ -109,11 +109,11 @@ title: Publications
 ### 2019
 
 - Drager, Katie, M. Joelle Kirtley, Clinton Kakela Awai, Catherine Lee, and Jonny Kim.  
-  **[Speaker ethnicity, language background, and the pronunciation of Hawaiian place names](PASTE-LINK-HERE).**  
+  **[Speaker ethnicity, language background, and the pronunciation of Hawaiian place names](https://openaccess.blucher.com.br/article-details/01-21758/).**  
   In Marcia dos Santos Machado Vieira and Marcos Luiz Wiedemer (Eds.), *Dimensões e Experiências em Sociolinguística*. São Paulo: Blucher, 33–54.
 
 ### 2015
 
 - Kim, Jonny.  
-  **[Effects of phonotactic probabilities on syllable structure](PASTE-LINK-HERE).**  
+  **[Effects of phonotactic probabilities on syllable structure](https://scholarspace.manoa.hawaii.edu/items/2acaefb7-bcda-4c28-9fc5-ca9baaca8199).**  
   *University of Hawai'i at Mānoa Working Papers in Linguistics* 46(3).
