@@ -11,7 +11,7 @@
       font-family: Georgia, "Times New Roman", serif;
       color: #222;
       background: #f7f7f7;
-      line-height: 1.6;
+      line-height: 1.65;
     }
 
     .container {
@@ -42,7 +42,6 @@
       margin: 0 auto 20px;
     }
 
-    /* 🔥 이름 구조 */
     .name-ko {
       font-size: 1.8rem;
       font-weight: 700;
@@ -52,24 +51,29 @@
 
     .name-korean {
       display: block;
-      font-size: 1.4rem;
+      font-size: 1.08rem;
       font-weight: 500;
-      color: #777;
+      color: #666;
       margin-top: 4px;
       letter-spacing: 0.02em;
     }
 
-    .affil-line {
-      display: block;
-      margin-bottom: 4px;  /* 기본 간격 */
+    .affil {
+      font-size: 0.98rem;
+      margin-bottom: 22px;
     }
 
-.affil-line.main {
-  margin-bottom: 10px; /* 여기만 크게 벌림 */
-}
+    .affil-line {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .affil-line.main {
+      margin-bottom: 10px;
+    }
 
     .menu-title {
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: #666;
@@ -98,48 +102,40 @@
     .content {
       background: #fff;
       border: 1px solid #e4e4e4;
-      padding: 40px 48px;
-    }
-
-    section {
-      margin-bottom: 48px;
+      padding: 44px 52px;
     }
 
     h1 {
-      font-size: 2.3rem;
-      margin-bottom: 24px;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 14px;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 6px;
+      font-size: 2.2rem;
+      margin: 0 0 24px 0;
+      line-height: 1.2;
     }
 
     p {
-      font-size: 1.02rem;
+      font-size: 1.06rem;
+      margin: 0 0 18px 0;
     }
 
-    ul.links {
-      padding-left: 22px;
+    .intro {
+      max-width: 760px;
     }
 
-    a {
-      color: #1f4fa3;
-    }
-
-    a:hover {
-      text-decoration: underline;
+    .intro p + p {
+      margin-top: 14px;
     }
 
     @media (max-width: 900px) {
       .container {
         grid-template-columns: 1fr;
+        gap: 24px;
       }
 
       .sidebar {
         position: static;
+      }
+
+      .content {
+        padding: 30px 24px;
       }
     }
   </style>
@@ -147,12 +143,9 @@
 
 <body>
   <div class="container">
-
-    <!-- 🔹 SIDEBAR -->
     <aside class="sidebar">
       <div class="sidebar-inner">
-
-        <img src="profile.jpg" class="profile-img" />
+        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img" />
 
         <div class="name-ko">
           Jonny Jungyun Kim
@@ -165,16 +158,7 @@
           <span class="affil-line">Pusan National University</span>
         </div>
 
-        <div class="menu-title">Menu</div>
-        <ul class="menu">
-          <li><a href="#research">Research</a></li>
-          <li><a href="#academic-output">Academic Output</a></li>
-          <li><a href="#teaching">Teaching</a></li>
-          <li><a href="#cv">CV</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-
-        <div class="menu-title">Links</div>
+        <div class="menu-title">Pages</div>
         <ul class="menu">
           <li><a href="publications.html">Publications</a></li>
           <li><a href="presentations.html">Presentations</a></li>
@@ -182,55 +166,27 @@
           <li><a href="cv.html">CV</a></li>
         </ul>
 
+        <div class="menu-title">Contact</div>
+        <ul class="menu">
+          <li><a href="mailto:jonnykkim@gmail.com">jonnykkim@gmail.com</a></li>
+        </ul>
       </div>
     </aside>
 
-    <!-- 🔹 MAIN -->
     <main class="content">
+      <section class="intro">
+        <h1>Jonny Jungyun Kim</h1>
 
-      <section>
-        <h1>Jonny Jungyun Kim (김정윤)</h1>
         <p>
-          Hi, I am Jonny Kim, a linguist specializing in phonetics.
-        </p>
-      </section>
-
-      <section id="research">
-        <h2>Research</h2>
-        <p>
+          I’m a linguist specializing in phonetics.
           My research focuses on sociophonetic variation, speech perception,
           and the interaction between phonetic detail and social meaning.
         </p>
-      </section>
 
-      <section id="academic-output">
-        <h2>Academic Output</h2>
-        <ul class="links">
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="presentations.html">Presentations</a></li>
-        </ul>
+        <p>
+          I am also known by the name 김정윤 in Korea.
+        </p>
       </section>
-
-      <section id="teaching">
-        <h2>Teaching</h2>
-        <ul class="links">
-          <li><a href="teaching.html">Teaching</a></li>
-        </ul>
-      </section>
-
-      <section id="cv">
-        <h2>CV</h2>
-        <ul class="links">
-          <li><a href="cv.html">Curriculum Vitae</a></li>
-        </ul>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:jonnykkim@gmail.com">jonnykkim@gmail.com</a></p>
-        <p>Office: Department of English Language and Literature, Pusan National University</p>
-      </section>
-
     </main>
   </div>
 </body>
