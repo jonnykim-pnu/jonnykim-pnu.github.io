@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Nunito:wght@600&display=swap" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jonny Jungyun Kim</title>
-
   <style>
     body {
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
       color: #222;
-      background: #f7f7f7;
-      line-height: 1.65;
+      background: #f5f5f3;
+      line-height: 1.7;
     }
-
     .container {
       max-width: 1200px;
       margin: 0 auto;
@@ -23,190 +20,197 @@
       gap: 48px;
       padding: 40px 32px 60px;
     }
-
     .sidebar {
       position: sticky;
       top: 32px;
       align-self: start;
     }
-
     .sidebar-inner {
       background: #fff;
-      border: 1px solid #e4e4e4;
-      padding: 24px;
+      border: 1px solid #e7e4de;
+      padding: 28px 24px;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
     }
-
     .profile-img {
       width: 100%;
-      max-width: 180px;
+      max-width: 170px;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
       display: block;
       margin: 0 auto 20px;
+      border-radius: 50%;
+      border: 4px solid #f1ede6;
     }
-
     .name-ko {
-      font-size: 1.5rem;
+      font-size: 1.45rem;
       font-weight: 700;
-      line-height: 1.2;
-      margin-bottom: 10px;
+      line-height: 1.3;
+      margin-bottom: 6px;
     }
-
-    .name-korean {
-      display: block;
-      font-size: 1.08rem;
-      font-weight: 500;
-      color: #666;
-      margin-top: 4px;
-      letter-spacing: 0.02em;
+    .name-en {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #444;
     }
-
     .affil {
-      font-size: 0.98rem;
+      font-size: 0.95rem;
       margin-bottom: 22px;
+      color: #444;
     }
-
-    .affil-line {
-      display: block;
-      margin-bottom: 3px;
+    .affil a {
+      color: #1f4fa3;
+      text-decoration: none;
     }
-
-    .affil-line.main {
-      margin-bottom: 10px;
+    .affil a:hover {
+      text-decoration: underline;
     }
-
     .menu-title {
-      font-size: 0.88rem;
+      font-size: 0.82rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      color: #666;
-      margin: 24px 0 10px;
+      color: #8a8175;
+      margin: 22px 0 12px;
     }
-
     .menu {
       list-style: none;
       padding: 0;
       margin: 0;
     }
-
     .menu li {
-      margin: 8px 0;
+      margin: 6px 0;
     }
-
     .menu a {
+      display: block;
+      padding: 8px 10px;
+      border-radius: 10px;
       text-decoration: none;
+      color: #2e4f7f;
+      transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    }
+    .menu a:hover {
+      background: #f3f6fb;
+      color: #183a6b;
+      transform: translateX(2px);
+    }
+    .menu a.active {
+      background: #eaf1fb;
+      color: #16345f;
+      font-weight: 700;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e7e4de;
+      padding: 44px 48px;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+    }
+    h1 {
+      font-size: 2.15rem;
+      margin: 0 0 24px;
+      line-height: 1.2;
+    }
+    p {
+      margin: 0 0 18px;
+      font-size: 1.02rem;
+    }
+    a {
       color: #1f4fa3;
     }
-
-    .menu a:hover {
-      text-decoration: underline;
+    .contact-list {
+      padding-left: 20px;
+      margin: 0;
     }
-
-    .content {
-      background: #fff;
-      border: 1px solid #e4e4e4;
-      padding: 44px 52px;
+    .contact-list li {
+      margin-bottom: 8px;
     }
-
-    h1 {
-      font-family: 'Nunito', sans-serif;
-      font-weight: 700;
-      letter-spacing: 0.03em;
-      color: #2c3e50;
-    }
-
-    p {
-      font-size: 1.06rem;
-      margin: 0 0 18px 0;
-    }
-
-    .intro {
-      max-width: 760px;
-    }
-
-    .intro p + p {
-      margin-top: 14px;
-    }
-
     @media (max-width: 900px) {
       .container {
         grid-template-columns: 1fr;
         gap: 24px;
+        padding: 24px 18px 40px;
       }
-
       .sidebar {
         position: static;
       }
-
-      .content {
+      .card {
         padding: 30px 24px;
       }
     }
   </style>
 </head>
-
 <body>
   <div class="container">
     <aside class="sidebar">
       <div class="sidebar-inner">
-        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img" />
-
-        <div class="name-ko">
-          Jonny Jungyun Kim
-          <span class="name-korean">(김정윤)</span>
-        </div>
+        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img">
+        <div class="name-ko">Jonny Jungyun Kim (김정윤)</div>
+        <div class="name-en">Jonny Kim</div>
 
         <div class="affil">
-          <span class="affil-line main">Linguist specializing in phonetics and sociophonetics</span>
-          <span class="affil-line">Department of English Language and Literature</span>
-          <span class="affil-line">Pusan National University, Korea</span>
+          Linguist specializing in phonetics and sociophonetics<br>
+          <a href="https://english.pusan.ac.kr/english/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a><br>
+          <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University</a>
         </div>
 
-        <div class="menu-title">Pages</div>
+        <div class="menu-title">Menu</div>
         <ul class="menu">
-          <li><a href="academic-journey.html">Academic Journey</a></li>
+          <li><a href="index.html" class="active">← Home</a></li>
           <li><a href="research.html">Research</a></li>
+          <li><a href="academic-journey.html">Academic Journey</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="presentations.html">Presentations</a></li>
           <li><a href="teaching.html">Teaching</a></li>
           <li><a href="cv.html">CV</a></li>
-        </ul>
-
-        <div class="menu-title">Contact</div>
-        <ul class="menu">
-          <li><a href="mailto:jonnykkim@gmail.com">jonnykkim@gmail.com</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </aside>
 
     <main class="content">
-      <section class="intro">
+      <section class="card">
         <h1>About me</h1>
-
         <p>
-          I’m Jonny Kim, a linguist specializing in experimental phonetics. I am Associate Professor at the
-          <a href="https://pnuenglish.pusan.ac.kr/sites/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a> at
+          I’m Jonny Kim, a linguist specializing in experimental phonetics. I am Associate Professor at
+          <a href="https://english.pusan.ac.kr/english/index.do" target="_blank" rel="noopener noreferrer">the Department of English Language and Literature</a>
+          at
           <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University</a>.
           My research focuses on sociophonetic variation, speech perception, and the interaction between phonetic detail and social meaning.
         </p>
-
         <p>
           I am also known as <em>Jungyun Kim</em> (김정윤) in Korea, and publish my academic work under the name <strong>Jonny Jungyun Kim</strong>.
         </p>
       </section>
 
-      <section class="intro">
+      <section class="card">
         <h1>About my name</h1>
-
         <p>
-          My mom gave me a given name <em>Jungyun</em>, roughly pronounced [d͡ʒ͍ʌŋ.jun]. 
-          Since I was born in Tallahassee, Florida, she also gave me an English name <em>Jonny</em>, 
-          which sounds a bit similar to <em>Jungyun</em> plus a vocative case marker /-i/ in Korean (and, of course, with some degree of phonetic reduction). </p>
+          My mom gave me a given name <em>Jungyun</em>, roughly pronounced [d͡ʒ͍ʌŋ.jun].
+          Since I was born in Tallahassee, Florida, she also gave me an English name <em>Jonny</em>,
+          which sounds a bit similar to <em>Jungyun</em> plus a vocative case marker /-i/ in Korean
+          (and, of course, with some degree of phonetic reduction).
+        </p>
+        <p>
+          This kind of noticing phonetic similarities across words—sometimes even across languages—likely sparked my interest in speech sounds from an early age.
+          However, I moved to Korea at around 10 months old and have spent most of my life there, receiving all of my education in Korea except for my doctoral training.
+          So, despite working in an English department and specializing in phonetics, my English pronunciation is far from that of native speakers.
+          I am proud of my <strong>socio-indexical features</strong> in the pronunciation of my full name (Jonny Jungyun Kim), as they reflect an important part of my identity!
+        </p>
+      </section>
 
-       <p>
-         This kind of noticing phonetic similarities—sometimes even across languages—likely sparked my interest in speech sounds from an early age.
-         However, I moved to Korea at around 10 months old and have spent most of my life there, receiving all of my education in Korea except for my doctoral training. 
-         So, despite working in an English department and specializing in phonetics, my English pronunciation is far from that of native speakers. 
-         I am proud of my <strong>socio-indexical features</strong> in the pronunciation of my full name (Jonny Jungyun Kim), as they reflect an important part of my identity!
-       </p>
+      <section class="card" id="contact">
+        <h1>Contact</h1>
+        <ul class="contact-list">
+          <li>Email: your-email@example.com</li>
+          <li>Office: Add your office location</li>
+          <li>CV: <a href="cv.html">View CV page</a></li>
+        </ul>
       </section>
     </main>
   </div>
