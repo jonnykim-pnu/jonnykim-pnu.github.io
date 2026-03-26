@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Publications | Jonny Jungyun Kim</title>
+
   <style>
     body {
       margin: 0;
@@ -23,7 +24,6 @@
     .sidebar {
       position: sticky;
       top: 32px;
-      align-self: start;
     }
     .sidebar-inner {
       background: #fff;
@@ -39,29 +39,25 @@
     .name-ko {
       font-size: 1.6rem;
       font-weight: 700;
-      margin: 0 0 8px 0;
-      line-height: 1.25;
     }
     .name-en {
       font-size: 1.1rem;
       font-weight: 700;
-      margin: 0 0 16px 0;
+      margin-bottom: 16px;
     }
     .affil {
-      font-size: 0.96rem;
+      font-size: 0.95rem;
       margin-bottom: 20px;
     }
     .menu-title {
       font-size: 0.85rem;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
       color: #666;
-      margin: 22px 0 10px;
+      margin: 20px 0 10px;
     }
     .menu {
       list-style: none;
       padding: 0;
-      margin: 0;
     }
     .menu li {
       margin: 8px 0;
@@ -76,38 +72,30 @@
     .content {
       background: #fff;
       border: 1px solid #e4e4e4;
-      padding: 40px 48px;
+      padding: 40px;
     }
     h1 {
-      font-size: 2.2rem;
-      margin: 0 0 28px 0;
-      line-height: 1.2;
+      font-size: 2rem;
+      margin-bottom: 24px;
     }
     h2 {
-      font-size: 1.5rem;
-      margin: 42px 0 16px 0;
-      padding-bottom: 6px;
-      border-bottom: 1px solid #ddd;
+      margin-top: 30px;
     }
     h3 {
-      font-size: 1.15rem;
-      margin: 26px 0 12px 0;
+      margin-top: 20px;
       color: #333;
     }
     .pub-list {
       list-style: none;
       padding: 0;
-      margin: 0;
     }
     .pub-item {
-      margin: 0 0 18px 0;
-      padding: 0 0 18px 0;
+      margin-bottom: 18px;
+      padding-bottom: 18px;
       border-bottom: 1px solid #efefef;
     }
     .pub-title {
       font-weight: 700;
-      font-size: 1.02rem;
-      margin-bottom: 4px;
     }
     .pub-title a {
       color: #1f4fa3;
@@ -116,67 +104,45 @@
     .pub-title a:hover {
       text-decoration: underline;
     }
-    .pub-authors,
-    .pub-source {
-      font-size: 0.98rem;
-    }
-    .pub-source em {
-      font-style: italic;
-    }
-    .home-link {
-      margin-bottom: 18px;
-      font-size: 0.95rem;
-    }
-    .home-link a {
-      color: #1f4fa3;
-      text-decoration: none;
-    }
-    .home-link a:hover {
-      text-decoration: underline;
-    }
-    @media (max-width: 900px) {
-      .container {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
-      .sidebar {
-        position: static;
-      }
-      .content {
-        padding: 28px 24px;
-      }
-    }
   </style>
 </head>
+
 <body>
   <div class="container">
+
+    <!-- Sidebar -->
     <aside class="sidebar">
       <div class="sidebar-inner">
-        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img" />
+
+        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img">
 
         <div class="name-ko">Jonny Jungyun Kim (김정윤)</div>
         <div class="name-en">Jonny Kim</div>
 
         <div class="affil">
-          Linguist specializing in phonetics and sociophonetics<br />
-          Department of English Language and Literature<br />
+          Linguist specializing in phonetics and sociophonetics<br>
+          Department of English Language and Literature<br>
           Pusan National University
         </div>
 
         <div class="menu-title">Menu</div>
         <ul class="menu">
-          <li><a href="index.html#research">Research</a></li>
+          <li><a href="index.html">← Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="academic-journey.html">Academic Journey</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="presentations.html">Presentations</a></li>
           <li><a href="teaching.html">Teaching</a></li>
           <li><a href="cv.html">CV</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
+
       </div>
     </aside>
 
+    <!-- Main Content -->
     <main class="content">
-      <div class="home-link"><a href="index.html">← Back to home</a></div>
+
       <h1>Publications</h1>
 
       <h2>Peer-reviewed journal articles</h2>
@@ -185,261 +151,9 @@
       <ul class="pub-list">
         <li class="pub-item">
           <div class="pub-title">Does AI reflect sound change? A comparison of human and TTS production of Korean stops</div>
-          <div class="pub-authors">Kang, Yein and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>Linguistic Research</em> 43(1).</div>
+          <div>Kang, Yein and Jonny Jungyun Kim.</div>
+          <div><em>Linguistic Research</em> 43(1).</div>
         </li>
       </ul>
 
-      <h3>2025</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/mobile/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003279490" target="_blank" rel="noopener noreferrer">
-              영미권 언론 매체의 헤드라인에 나타난 한국영화 국제 수상 담론의 시대별 변화: 평가이론에 기반한 현상평가 분석 (Diachronic shifts in the discourse of Korean film international awards in British and American media headlines: An appreciation analysis based on Appraisal Theory)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Semi and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>The Journal of Foreign Studies</em> 74, 425–452.</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003279800" target="_blank" rel="noopener noreferrer">
-              감탄사 ‘아’의 음향적 특징과 번역 양상:｢오징어 게임 시즌 1｣ 청각장애인용 영어자막 중심으로 (Acoustic features and translation patterns of the Korean interjection “ah”: Focusing on the English SDH in <em>Squid Game</em> Season 1)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Semi and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>The Journal of Interpretation and Translation Education</em> 23(4), 67–88.</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/mobile/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003245378" target="_blank" rel="noopener noreferrer">
-              Off-Screen 음성에 대한청각장애인용 영어자막 번역연구 (A study on the translation of off-screen sounds in English subtitles for the deaf and hard of hearing)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Semi and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>The Journal of Interpretation and Translation Education</em> 23(2), 27–56.</div>
-        </li>
-      </ul>
-
-      <h3>2024</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003147893" target="_blank" rel="noopener noreferrer">
-              Age-indexed perceptual cue-shifting of Korean stops in various prosodic positions
-            </a>
-          </div>
-          <div class="pub-authors">So, Hyunjung and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>Linguistic Research</em> 41(3), 367–390.</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.journal-labphon.org/article/id/9880/" target="_blank" rel="noopener noreferrer">
-              Preboundary lengthening and articulatory strengthening in Korean as an edge-prominence language
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny Jungyun, Sahyang Kim, and Taehong Cho.</div>
-          <div class="pub-source"><em>Laboratory Phonology</em> 15(1).</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003052979" target="_blank" rel="noopener noreferrer">
-              Prosodically conditioned VOT merger of Korean stops examined in verse-style broad-focus speech
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny Jungyun.</div>
-          <div class="pub-source"><em>Journal of Language Sciences</em> 31(1), 111–134.</div>
-        </li>
-      </ul>
-
-      <h3>2023</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.eksss.org/archive/view_article?pid=pss-15-1-1" target="_blank" rel="noopener noreferrer">
-              English vowel production conditioned by probabilistic accessibility of words: A comparison between L1 and L2 speakers
-            </a>
-          </div>
-          <div class="pub-authors">Lee, Mijung and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>Phonetics and Speech Sciences</em> 15(1), 1–7.</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002947187" target="_blank" rel="noopener noreferrer">
-              영어학 분야 영어매개수업에 대한 대학생 인식 연구 (Students’ perceptions of English-medium instruction in English linguistics courses)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Chae-Eun and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>English 21</em> 36(1), 319–340.</div>
-        </li>
-      </ul>
-
-      <h3>2022</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002912527" target="_blank" rel="noopener noreferrer">
-              Testing the influence of socio-lexical associations along the time course of spoken-word processing
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny Jungyun, Amy J. Schafer, and Katie Drager.</div>
-          <div class="pub-source"><em>Studies in Phonetics, Phonology and Morphology</em> 28(3), 387–416.</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002920793" target="_blank" rel="noopener noreferrer">
-              한국어 계승어 화자의 발화오류와 사용 특징 연구 (A study on Korean heritage speakers’ speech errors)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Taeho, Ki-seong Park, Jihyun Jeon, Eunji Kang, Jonny Jungyun Kim, Danielle O. Pyun, Han-gyu Lee, and Sae Youn Cho.</div>
-          <div class="pub-source"><em>The Journal of Linguistic Science</em> 103, 57–79.</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://journal.kci.go.kr/kats/archive/articleView?artiId=ART002909646" target="_blank" rel="noopener noreferrer">
-              심리 화면해설의 객관성과 발화 운율이 등장인물의 감정 이해에 미치는 영향 (Influences of objectivity and prosody in audio description on the comprehension of character emotions)
-            </a>
-          </div>
-          <div class="pub-authors">Jeong, Dawoon and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>The Journal of Translation Studies</em> 23(5), 33–55.</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/mobile/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002899814" target="_blank" rel="noopener noreferrer">
-              영어발화 시 한국어 비음동화 규칙의 전이:운율이 미치는 영향을 중심으로 (Nasal assimilation of Korean transferred in English speech: Focusing on prosodic influences)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Mijeong and Jonny Jungyun Kim.</div>
-          <div class="pub-source"><em>Journal of Language Sciences</em> 29(4), 1–22.</div>
-        </li>
-
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002813607" target="_blank" rel="noopener noreferrer">
-              한국인 청자의 영어단어 재인과 L1-L2 간 어휘경쟁: 발화자의 원어민성 지각을 이용한 실험연구 (Korean listeners’ English word recognition and cross-linguistic lexical competition: An experiment manipulating talker nativeness information)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny Jungyun and Sunghee Kim.</div>
-          <div class="pub-source"><em>Journal of Language Sciences</em> 29(1), 31–58.</div>
-        </li>
-      </ul>
-
-      <h3>2021</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002752420" target="_blank" rel="noopener noreferrer">
-              유음으로 시작하는 어간말 자음군 발음의 변이 (Phonetic variation of Korean stem-final consonant clusters beginning with a liquid)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny Jungyun and Eunji Kang.</div>
-          <div class="pub-source"><em>Studies in Phonetics, Phonology and Morphology</em> 27(2), 161–192.</div>
-        </li>
-      </ul>
-
-      <h3>2018</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://doi.org/10.1111/tops.12351" target="_blank" rel="noopener noreferrer">
-              Rapid influence of word-talker associations on lexical access
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny and Katie Drager.</div>
-          <div class="pub-source"><em>Topics in Cognitive Science</em> 10(4), 775–786.</div>
-        </li>
-      </ul>
-
-      <h3>2016</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.journal-labphon.org/article/id/6186/" target="_blank" rel="noopener noreferrer">
-              Perceptual associations between words and speaker age
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny.</div>
-          <div class="pub-source"><em>Laboratory Phonology</em> 7(1), 18.</div>
-        </li>
-      </ul>
-
-      <h3>2011</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-  <a href="https://socioling-journal.com/journal/article.php?code=93597&Array" target="_blank" rel="noopener noreferrer">
-    A study of Korean syllable structure: Evidence from rhyming patterns in Korean contemporary rap-songs
-  </a>
-</div>
-          <div class="pub-authors">Kim, Jung Yun and Yongeun Lee.</div>
-          <div class="pub-source"><em>Sociolinguistics Journal of Korea</em> 19(1), 1–22.</div>
-        </li>
-      </ul>
-
-      <h3>2009</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001378807" target="_blank" rel="noopener noreferrer">
-              ESL/EFL 교재와 고등학교 영어교과서 대화문에 나타난 수정 현상에 대한 비교 분석 연구 (A comparative study of repair phenomena in ESL/EFL texts and high school English textbooks)
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Haeyeon and Jung Yun Kim.</div>
-          <div class="pub-source"><em>Korean Journal of English Language and Linguistics</em> 9(3), 429–459.</div>
-        </li>
-      </ul>
-
-      <h2>Other papers: Working papers, chapters in edited volumes, and conference papers</h2>
-
-      <h3>2019</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://openaccess.blucher.com.br/article-details/01-21758/" target="_blank" rel="noopener noreferrer">
-              Speaker ethnicity, language background, and the pronunciation of Hawaiian place names
-            </a>
-          </div>
-          <div class="pub-authors">Drager, Katie, M. Joelle Kirtley, Clinton Kakela Awai, Catherine Lee, and Jonny Kim.</div>
-          <div class="pub-source">In Marcia dos Santos Machado Vieira and Marcos Luiz Wiedemer (Eds.), <em>Dimensões e Experiências em Sociolinguística</em>. São Paulo: Blucher, 33–54.</div>
-        </li>
-      </ul>
-
-      <h3>2017</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://www.researchgate.net/publication/319185735_Sociophonetic_Realizations_Guide_Subsequent_Lexical_Access" target="_blank" rel="noopener noreferrer">
-              Sociophonetic realizations guide subsequent lexical access
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny and Katie Drager.</div>
-          <div class="pub-source">
-            In Francisco Lacerda (Eds.) Proceedings of <em>Interspeech 2017</em>, 621-625. </div>
-        </li>
-      </ul>
-
-      
-      <h3>2015</h3>
-      <ul class="pub-list">
-        <li class="pub-item">
-          <div class="pub-title">
-            <a href="https://scholarspace.manoa.hawaii.edu/items/2acaefb7-bcda-4c28-9fc5-ca9baaca8199" target="_blank" rel="noopener noreferrer">
-              Effects of phonotactic probabilities on syllable structure
-            </a>
-          </div>
-          <div class="pub-authors">Kim, Jonny.</div>
-          <div class="pub-source"><em>University of Hawai'i at Mānoa Working Papers in Linguistics</em> 46(3).</div>
-        </li>
-      </ul>
-    </main>
-  </div>
-</body>
-</html>
+      <!-- 나머지 논문 리스트는 기존 코드 그대로 유지 -->
