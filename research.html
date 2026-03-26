@@ -1,15 +1,162 @@
-<main class="content">
-  <a href="index.html">&larr; Back to home</a>
-  <h1>Research</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | Jonny Jungyun Kim</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #222;
+      background: #f7f7f7;
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 48px;
+      padding: 40px 32px 60px;
+    }
+    .sidebar {
+      position: sticky;
+      top: 32px;
+      align-self: start;
+    }
+    .sidebar-inner {
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      padding: 24px;
+    }
+    .profile-img {
+      width: 100%;
+      max-width: 180px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    .name-ko {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin: 0 0 8px 0;
+      line-height: 1.25;
+    }
+    .name-en {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 0 0 16px 0;
+    }
+    .affil {
+      font-size: 0.96rem;
+      margin-bottom: 20px;
+    }
+    .menu-title {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #666;
+      margin: 22px 0 10px;
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menu li {
+      margin: 8px 0;
+    }
+    .menu a {
+      text-decoration: none;
+      color: #1f4fa3;
+    }
+    .menu a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      padding: 40px 48px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin: 0 0 28px 0;
+      line-height: 1.2;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin: 42px 0 16px 0;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #ddd;
+    }
+    p {
+      margin: 0 0 20px 0;
+      font-size: 1rem;
+    }
+    .home-link {
+      margin-bottom: 18px;
+      font-size: 0.95rem;
+    }
+    .home-link a {
+      color: #1f4fa3;
+      text-decoration: none;
+    }
+    .home-link a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .sidebar {
+        position: static;
+      }
+      .content {
+        padding: 28px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img" />
 
-  <p>
-    My research is mainly concerned with how subcategorical phonetic details are encoded in the cognitive mechanisms of speech production and perception.
-    One of the key factors in that mechanism is the links between linguistic forms and social information.
-  </p>
+        <div class="name-ko">Jonny Jungyun Kim (김정윤)</div>
+        <div class="name-en">Jonny Kim</div>
 
-  <p>
-    As a sociophonetician and a psycholinguist, 
-    I am also interested in language variation, sociophonetic variation of Korean, social meaning of variants, experience-based linguistic modeling, 
-    prosody, acoustic/articulatory phonetics, L1/L2 phonological development, and corpus-based approaches.
-  </p>
-</main>
+        <div class="affil">
+          Linguist specializing in phonetics and sociophonetics<br />
+          Department of English Language and Literature<br />
+          Pusan National University
+        </div>
+
+        <div class="menu-title">Menu</div>
+        <ul class="menu">
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="presentations.html">Presentations</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="home-link"><a href="index.html">← Back to home</a></div>
+      <h1>Research</h1>
+
+      <p>
+        My research is mainly concerned with how subcategorical phonetic details are encoded in the cognitive mechanisms of speech production and perception. One of the key factors in that mechanism is the links between linguistic forms and social information.
+      </p>
+
+      <p>
+        As a sociophonetician and a psycholinguist, I am also interested in language variation, sociophonetic variation of Korean, social meaning of variants, experience-based linguistic modeling, prosody, acoustic/articulatory phonetics, L1/L2 phonological development, and corpus-based approaches.
+      </p>
+    </main>
+  </div>
+</body>
+</html>
