@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jonny Jungyun Kim</title>
+
   <style>
     body {
       margin: 0;
@@ -41,17 +42,21 @@
       margin: 0 auto 20px;
     }
 
+    /* 🔥 이름 구조 */
     .name-ko {
-      font-size: 1.9rem;
+      font-size: 1.8rem;
       font-weight: 700;
-      margin: 0 0 8px 0;
       line-height: 1.2;
+      margin-bottom: 10px;
     }
 
-    .name-en {
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin: 0 0 16px 0;
+    .name-korean {
+      display: block;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #666;
+      margin-top: 4px;
+      letter-spacing: 0.02em;
     }
 
     .affil {
@@ -98,29 +103,22 @@
 
     h1 {
       font-size: 2.3rem;
-      margin: 0 0 24px 0;
-      line-height: 1.2;
+      margin-bottom: 24px;
     }
 
     h2 {
       font-size: 1.5rem;
-      margin: 0 0 14px 0;
-      padding-bottom: 6px;
+      margin-bottom: 14px;
       border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
     }
 
     p {
-      margin: 0 0 12px 0;
       font-size: 1.02rem;
     }
 
     ul.links {
       padding-left: 22px;
-      margin: 0;
-    }
-
-    ul.links li {
-      margin-bottom: 8px;
     }
 
     a {
@@ -131,32 +129,26 @@
       text-decoration: underline;
     }
 
-    .subnote {
-      color: #666;
-      font-size: 0.95rem;
-    }
-
     @media (max-width: 900px) {
       .container {
         grid-template-columns: 1fr;
-        gap: 24px;
       }
 
       .sidebar {
         position: static;
       }
-
-      .content {
-        padding: 28px 24px;
-      }
     }
   </style>
 </head>
+
 <body>
   <div class="container">
+
+    <!-- 🔹 SIDEBAR -->
     <aside class="sidebar">
       <div class="sidebar-inner">
-        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img" />
+
+        <img src="profile.jpg" class="profile-img" />
 
         <div class="name-ko">
           Jonny Jungyun Kim
@@ -185,23 +177,26 @@
           <li><a href="teaching.html">Teaching</a></li>
           <li><a href="cv.html">CV</a></li>
         </ul>
+
       </div>
     </aside>
 
+    <!-- 🔹 MAIN -->
     <main class="content">
+
       <section>
         <h1>Jonny Jungyun Kim (김정윤)</h1>
         <p>
           Welcome to my academic website. I am a linguist specializing in phonetics,
-          sociophonetics, psycholinguistics, and related areas of speech research.
+          sociophonetics, psycholinguistics, and speech research.
         </p>
       </section>
 
       <section id="research">
         <h2>Research</h2>
         <p>
-          My research focuses on sociophonetic variation, speech perception, and the
-          interaction between phonetic detail and social meaning.
+          My research focuses on sociophonetic variation, speech perception,
+          and the interaction between phonetic detail and social meaning.
         </p>
       </section>
 
@@ -232,6 +227,7 @@
         <p>Email: <a href="mailto:jonnykkim@gmail.com">jonnykkim@gmail.com</a></p>
         <p>Office: Department of English Language and Literature, Pusan National University</p>
       </section>
+
     </main>
   </div>
 </body>
