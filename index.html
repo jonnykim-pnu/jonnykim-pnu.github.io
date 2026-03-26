@@ -59,11 +59,14 @@
       letter-spacing: 0.02em;
     }
 
-    .affil {
-      font-size: 0.98rem;
-      margin-bottom: 20px;
-      line-height: 1.8;
+    .affil-line {
+      display: block;
+      margin-bottom: 4px;  /* 기본 간격 */
     }
+
+.affil-line.main {
+  margin-bottom: 10px; /* 여기만 크게 벌림 */
+}
 
     .menu-title {
       font-size: 0.9rem;
@@ -157,9 +160,9 @@
         </div>
 
         <div class="affil">
-          Linguist specializing in phonetics and sociophonetics<br />
-          Department of English Language and Literature<br />
-          Pusan National University
+          <span class="affil-line main">Linguist specializing in phonetics and sociophonetics</span>
+          <span class="affil-line">Department of English Language and Literature</span>
+          <span class="affil-line">Pusan National University</span>
         </div>
 
         <div class="menu-title">Menu</div>
