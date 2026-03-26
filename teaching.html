@@ -1,21 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Teaching</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teaching | Jonny Jungyun Kim</title>
+  <style>
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: #222; background: #f5f5f3; line-height: 1.7; }
+    .container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 280px 1fr; gap: 48px; padding: 40px 32px 60px; }
+    .sidebar { position: sticky; top: 32px; align-self: start; }
+    .sidebar-inner, .content { background: #fff; border: 1px solid #e7e4de; border-radius: 18px; box-shadow: 0 6px 18px rgba(0,0,0,0.04); }
+    .sidebar-inner { padding: 28px 24px; }
+    .content { padding: 44px 48px; }
+    .profile-img { width: 100%; max-width: 170px; aspect-ratio: 1/1; object-fit: cover; display: block; margin: 0 auto 20px; border-radius: 50%; border: 4px solid #f1ede6; }
+    .name-ko { font-size: 1.45rem; font-weight: 700; margin-bottom: 6px; }
+    .name-en { font-size: 1.05rem; font-weight: 700; margin-bottom: 16px; color: #444; }
+    .affil { font-size: 0.95rem; margin-bottom: 22px; color: #444; }
+    .menu-title { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; color: #8a8175; margin: 22px 0 12px; }
+    .menu { list-style: none; padding: 0; margin: 0; }
+    .menu li { margin: 6px 0; }
+    .menu a { display: block; padding: 8px 10px; border-radius: 10px; text-decoration: none; color: #2e4f7f; transition: background-color .2s ease, color .2s ease, transform .2s ease; }
+    .menu a:hover { background: #f3f6fb; color: #183a6b; transform: translateX(2px); }
+    .menu a.active { background: #eaf1fb; color: #16345f; font-weight: 700; }
+    h1 { font-size: 2.15rem; margin: 0 0 24px; }
+    h2 { font-size: 1.2rem; margin-top: 28px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 10px; }
+    @media (max-width: 900px) {
+      .container { grid-template-columns: 1fr; gap: 24px; padding: 24px 18px 40px; }
+      .sidebar { position: static; }
+      .content { padding: 30px 24px; }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img">
+        <div class="name-ko">Jonny Jungyun Kim (김정윤)</div>
+        <div class="name-en">Jonny Kim</div>
+        <div class="affil">
+          Linguist specializing in phonetics and sociophonetics<br>
+          Department of English Language and Literature<br>
+          Pusan National University
+        </div>
+        <div class="menu-title">Menu</div>
+        <ul class="menu">
+          <li><a href="index.html">← Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="academic-journey.html">Academic Journey</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="presentations.html">Presentations</a></li>
+          <li><a href="teaching.html" class="active">Teaching</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </aside>
 
-<h1>Teaching</h1>
+    <main class="content">
+      <h1>Teaching</h1>
+      <h2>Courses</h2>
+      <ul>
+        <li>English Variation and Social Factors</li>
+        <li>Phonetics / Experimental Phonetics</li>
+        <li>History of Sociolinguistics</li>
+        <li>Add other courses here</li>
+      </ul>
 
-<h2>Courses</h2>
-
-<ul>
-  <li>English Variation and Social Factors</li>
-  <li>Phonetics</li>
-  <li>Sociolinguistics</li>
-  <li>Psycholinguistics</li>
-</ul>
-
+      <h2>Teaching interests</h2>
+      <p>
+        My teaching covers phonetics, sociolinguistics, psycholinguistics, language variation, and research methods.
+        I am especially interested in helping students connect theoretical ideas with experimental and corpus-based approaches.
+      </p>
+    </main>
+  </div>
 </body>
 </html>
