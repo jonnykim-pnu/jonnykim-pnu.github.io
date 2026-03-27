@@ -5,15 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Jonny Jungyun Kim | Phonetics & Sociophonetics | Pusan National University</title>
-
   <meta name="description" content="Jonny Jungyun Kim is an Associate Professor of linguistics at Pusan National University specializing in experimental phonetics, sociophonetics, and speech perception.">
 
-  <!-- Open Graph -->
   <meta property="og:title" content="Jonny Jungyun Kim | Linguist">
   <meta property="og:description" content="Research on phonetics, sociophonetics, and speech perception.">
   <meta property="og:image" content="https://jonnykim-pnu.github.io/profile.jpg">
   <meta property="og:url" content="https://jonnykim-pnu.github.io/">
   <meta property="og:type" content="website">
+
   <style>
     body {
       margin: 0;
@@ -22,6 +21,7 @@
       background: #f5f5f3;
       line-height: 1.7;
     }
+
     .container {
       max-width: 1200px;
       margin: 0 auto;
@@ -30,11 +30,13 @@
       gap: 48px;
       padding: 40px 32px 60px;
     }
+
     .sidebar {
       position: sticky;
       top: 32px;
       align-self: start;
     }
+
     .sidebar-inner {
       background: #fff;
       border: 1px solid #e7e4de;
@@ -42,6 +44,7 @@
       border-radius: 18px;
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
     }
+
     .profile-img {
       width: 100%;
       max-width: 170px;
@@ -52,32 +55,41 @@
       border-radius: 50%;
       border: 4px solid #f1ede6;
     }
+
+    .name-en,
+    .name-ko {
+      text-align: center;
+    }
+
     .name-en {
       font-size: 1.55rem;
       font-weight: 700;
       line-height: 1.3;
       margin-bottom: 6px;
-      text-align: center;
     }
+
     .name-ko {
       font-size: 1.25rem;
       font-weight: 700;
       margin-bottom: 16px;
-      text-align: center;
       color: #444;
     }
+
     .affil {
       font-size: 0.95rem;
       margin-bottom: 22px;
       color: #444;
     }
+
     .affil a {
       color: #1f4fa3;
       text-decoration: none;
     }
+
     .affil a:hover {
       text-decoration: underline;
     }
+
     .menu-title {
       font-size: 0.82rem;
       text-transform: uppercase;
@@ -85,14 +97,17 @@
       color: #8a8175;
       margin: 22px 0 12px;
     }
+
     .menu {
       list-style: none;
       padding: 0;
       margin: 0;
     }
+
     .menu li {
       margin: 6px 0;
     }
+
     .menu a {
       display: block;
       padding: 8px 10px;
@@ -101,21 +116,25 @@
       color: #2e4f7f;
       transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
     }
+
     .menu a:hover {
       background: #f3f6fb;
       color: #183a6b;
       transform: translateX(2px);
     }
+
     .menu a.active {
       background: #eaf1fb;
       color: #16345f;
       font-weight: 700;
     }
+
     .content {
       display: flex;
       flex-direction: column;
       gap: 24px;
     }
+
     .card {
       background: #fff;
       border: 1px solid #e7e4de;
@@ -123,73 +142,89 @@
       border-radius: 18px;
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
     }
+
     h1 {
       font-size: 2.15rem;
       margin: 0 0 24px;
       line-height: 1.2;
     }
+
     p {
       margin: 0 0 18px;
       font-size: 1.02rem;
     }
+
     a {
       color: #1f4fa3;
     }
+
     .contact-list {
       padding-left: 20px;
       margin: 0;
     }
+
     .contact-list li {
       margin-bottom: 8px;
     }
+
+    .position-list {
+      margin-top: 26px;
+    }
+
+    .position-item {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      column-gap: 28px;
+      align-items: start;
+      margin-bottom: 22px;
+    }
+
+    .position-date {
+      font-size: 0.98rem;
+      color: #555;
+      line-height: 1.6;
+      white-space: nowrap;
+    }
+
+    .position-detail {
+      font-size: 1rem;
+      line-height: 1.75;
+      min-width: 0;
+    }
+
+    .position-detail a {
+      color: #1f4fa3;
+      text-decoration: none;
+    }
+
+    .position-detail a:hover {
+      text-decoration: underline;
+    }
+
     @media (max-width: 900px) {
       .container {
         grid-template-columns: 1fr;
         gap: 24px;
         padding: 24px 18px 40px;
       }
+
       .sidebar {
         position: static;
       }
+
       .card {
         padding: 30px 24px;
       }
-      .position-list {
-        margin-top: 24px;
-      }
+
       .position-item {
-        display: grid;
-        grid-template-columns: 220px 1fr;
-        column-gap: 26px;
-        align-items: start;
-        margin-bottom: 22px;
+        grid-template-columns: 1fr;
+        row-gap: 4px;
+        margin-bottom: 18px;
       }
+
       .position-date {
-        font-size: 0.98rem;
-        color: #555;
-        line-height: 1.6;
-        white-space: nowrap;
-      }
-      .position-detail {
-        font-size: 1rem;
-        line-height: 1.75;
-      }
-      .position-detail a {
-        color: #1f4fa3;
-        text-decoration: none;
-      }
-      .position-detail a:hover {
-        text-decoration: underline;
-      }
-      @media (max-width: 900px) {
-        .position-item {
-          grid-template-columns: 1fr;
-          row-gap: 4px;
-        }
-        .position-date {
-          white-space: normal;
-          font-weight: 600;
-        }
+        white-space: normal;
+        font-weight: 600;
       }
     }
   </style>
@@ -199,12 +234,13 @@
     <aside class="sidebar">
       <div class="sidebar-inner">
         <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img">
+
         <div class="name-en">Jonny Kim</div>
         <div class="name-ko">(김정윤)</div>
 
         <div class="affil">
           Linguist specializing in phonetics and sociophonetics<br>
-          <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a><br>
+          <a href="https://english.pusan.ac.kr/english/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a><br>
           <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University</a>
         </div>
 
@@ -225,78 +261,69 @@
     <main class="content">
       <section class="card">
         <h1>About me</h1>
-        <p>
-          I’m Jonny Kim, a linguist specializing in experimental phonetics. My research focuses on sociophonetic variation, speech perception, and the interaction between phonetic detail and social meaning. <br>
 
-         <div class="position-list">
-           <div class="position-item">
-             <div class="position-date">September 2023 – present</div>
-             <div class="position-detail">
-               Associate Professor at the
-               <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a>,
-               <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University, Korea</a>
-             </div>
-           </div>
-           
-           <div class="position-item">
-             <div class="position-date">September 2019 – August 2023</div>
-             <div class="position-detail">
-               Assistant Professor at the
-               <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a>,
-               <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University, Korea</a>
-             </div>
-           </div>
-           
-           <div class="position-item">
-             <div class="position-date">April 2018 – August 2019</div>
-             <div class="position-detail">
-               Research Assistant Professor at
-               <a href="https://tcho.hanyang.ac.kr/web/hipcs/about-hipcs" target="_blank" rel="noopener noreferrer">Hanyang Institute for Phonetics and Cognitive Sciences of Language (HIPCS)</a>
-             </div>
-           </div>
-           
-           <div class="position-item">
-             <div class="position-date">August 2011 – May 2018</div>
-             <div class="position-detail">
-               Ph.D. in linguistics at the
-               <a href="https://manoa.hawaii.edu/graduate/linguistics/" target="_blank" rel="noopener noreferrer">Department of Linguistics</a>,
-               <a href="https://manoa.hawaii.edu/" target="_blank" rel="noopener noreferrer">University of Hawai‘i at Mānoa</a>
-             </div>
-           </div>
-         </div>
-        </p>  
+        <p>
+          I’m Jonny Kim, a linguist specializing in experimental phonetics. My research focuses on sociophonetic variation, speech perception, and the interaction between phonetic detail and social meaning.
+        </p>
+
+        <div class="position-list">
+          <div class="position-item">
+            <div class="position-date">September 2023 – present</div>
+            <div class="position-detail">
+              Associate Professor at the
+              <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a>,
+              <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University, Korea</a>
+            </div>
+          </div>
+
+          <div class="position-item">
+            <div class="position-date">September 2019 – August 2023</div>
+            <div class="position-detail">
+              Assistant Professor at the
+              <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a>,
+              <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University, Korea</a>
+            </div>
+          </div>
+
+          <div class="position-item">
+            <div class="position-date">April 2018 – August 2019</div>
+            <div class="position-detail">
+              Research Assistant Professor at
+              <a href="https://tcho.hanyang.ac.kr/web/hipcs/about-hipcs" target="_blank" rel="noopener noreferrer">Hanyang Institute for Phonetics and Cognitive Sciences of Language (HIPCS)</a>
+            </div>
+          </div>
+
+          <div class="position-item">
+            <div class="position-date">August 2011 – May 2018</div>
+            <div class="position-detail">
+              Ph.D. in linguistics at the
+              <a href="https://manoa.hawaii.edu/graduate/linguistics/" target="_blank" rel="noopener noreferrer">Department of Linguistics</a>,
+              <a href="https://manoa.hawaii.edu/" target="_blank" rel="noopener noreferrer">University of Hawai‘i at Mānoa</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="card">
         <h1>About my name</h1>
+
         <p>
           I am also known as <em>Jungyun Kim</em> (김정윤) in Korea, and started to publish my academic work under the name <strong>Jonny Jungyun Kim</strong> since 2021.
         </p>
-        <p>
-          My mom gave me a given name <em>Jungyun</em>, roughly pronounced [d͡ʒ͍ʌŋ.jun].
-          Since I was born in Tallahassee, Florida, she also gave me an English name <em>Jonny</em>,
-          which sounds a bit similar to <em>Jungyun</em> plus a vocative case marker /-i/ in Korean
-          (and, of course, with some degree of phonetic reduction).
-        </p>
-        <p>
-          This kind of noticing phonetic similarities across words—sometimes even across languages—likely sparked my interest in speech sounds from an early age.
-          However, I moved to Korea at around 10 months old and have spent most of my life there, receiving all of my education in Korea except for my doctoral training.
-          So, despite working in an English department and specializing in phonetics, my English pronunciation is far from that of native speakers.
-          Nevertheless, I am proud of my <strong>socio-indexical features</strong> in the pronunciation of my full name (Jonny Jungyun Kim), as they reflect an important part of my identity!
-        </p>
-      </section>
 
-      <section class="card">
-        <h1>News</h1>
         <p>
-          I am on sabbatical this year (2026). I’ve been enjoying baseball, working out, music, table tennis, and billiards, and spending a lot of restful time with my family.
+          My mom gave me a given name <em>Jungyun</em>, roughly pronounced [d͡ʒ͍ʌŋ.jun]. Since I was born in Tallahassee, Florida, she also gave me an English name <em>Jonny</em>, which sounds a bit similar to <em>Jungyun</em> plus a vocative case marker /-i/ in Korean (and, of course, with some degree of phonetic reduction).
+        </p>
+
+        <p>
+          This kind of noticing phonetic similarities across words—sometimes even across languages—likely sparked my interest in speech sounds from an early age. However, I moved to Korea at around 10 months old and have spent most of my life there, receiving all of my education in Korea except for my doctoral training. So, despite working in an English department and specializing in phonetics, my English pronunciation is far from that of native speakers. Nevertheless, I am proud of my <strong>socio-indexical features</strong> in the pronunciation of my full name (Jonny Jungyun Kim), as they reflect an important part of my identity.
         </p>
       </section>
 
       <section class="card" id="contact">
         <h1>Contact</h1>
         <ul class="contact-list">
-          <li>Email: jonnykkim@gmail.com</li>
+          <li>Email: <a href="mailto:jonnykkim@gmail.com">jonnykkim@gmail.com</a></li>
           <li>Departmental contact: english1510@pusan.ac.kr</li>
           <li>CV: <a href="cv.html">View CV</a></li>
         </ul>
