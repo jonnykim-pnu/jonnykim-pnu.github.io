@@ -42,6 +42,10 @@
       border-radius: 50%;
       border: 4px solid #f1ede6;
     }
+    .name-en,
+    .name-ko {
+      text-align: center;
+    }
     .name-en {
       font-size: 1.55rem;
       font-weight: 700;
@@ -56,8 +60,21 @@
     }
     .affil {
       font-size: 0.95rem;
-      margin-bottom: 22px;
       color: #444;
+      line-height: 1.6;
+    }
+    .affil div {
+      margin-bottom: 6px;
+    }
+    .affil-gap {
+      margin-bottom: 14px;
+    }
+    .affil a {
+      color: #1f4fa3;
+      text-decoration: none;
+    }
+    .affil a:hover {
+      text-decoration: underline;
     }
     .menu-title {
       font-size: 0.82rem;
@@ -144,6 +161,17 @@
       margin: 0 0 16px;
       font-size: 1.02rem;
     }
+    figure {
+      margin: 20px 0 0 0;
+    }
+    figure img {
+      width: 100%;
+      max-width: 700px;
+    }
+    figcaption {
+      text-align: center;
+      margin-top: 8px;
+    }
     a {
       color: #1f4fa3;
     }
@@ -175,11 +203,21 @@
         <img src="profile.jpg" alt="Jonny Jungyun Kim" class="profile-img">
         <div class="name-en">Jonny Kim</div>
         <div class="name-ko">(김정윤)</div>
+
         <div class="affil">
-          Linguist specializing in phonetics and sociophonetics<br>
-          <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a><br>
-          <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University</a>
+          <div>Linguist specializing in phonetics</div>
+          <div class="affil-gap">
+            <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">
+              Department of English Language and Literature
+            </a>
+          </div>
+          <div>
+            <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">
+              Pusan National University
+            </a>
+          </div>
         </div>
+
         <div class="menu-title">Menu</div>
         <ul class="menu">
           <li><a href="index.html">← Home</a></li>
@@ -202,13 +240,13 @@
           <div class="timeline-year">2011-2018</div>
           <div class="timeline-title">Ph.D. in Linguistics, University of Hawai‘i at Mānoa</div>
           <p>
-            I received a doctoral degree at the <a href="https://manoa.hawaii.edu/graduate/linguistics/" target="_blank" rel="noopener noreferrer">Department of Linguistiics</a>
+            I received a doctoral degree at the <a href="https://manoa.hawaii.edu/graduate/linguistics/" target="_blank" rel="noopener noreferrer">Department of Linguistics</a>
             at the <a href="https://manoa.hawaii.edu/" target="_blank" rel="noopener noreferrer">University of Hawai‘i at Mānoa</a>.
           </p>
           <p>
-            I completed my dissertation, <a href="http://hdl.handle.net/10125/62505" target="_blank" rel="noopener noreferrer"><em>Socially-conditioned links between words and phonetic realizations</em></a>, 
+            I completed my dissertation, <a href="http://hdl.handle.net/10125/62505" target="_blank" rel="noopener noreferrer"><em>Socially-conditioned links between words and phonetic realizations</em></a>,
             under the supervision of Professor Katie Drager.
-            This work examined how word recognition is influenced by age-related covariance between lexical items and phonetic forms, 
+            This work examined how word recognition is influenced by age-related covariance between lexical items and phonetic forms,
             and how socially indexed acoustic properties encountered over the course of a lifetime are remembered and represented in word-level storage.
           </p>
           <p>
@@ -216,36 +254,36 @@
             <a href="https://github.com/jenniferhay" target="_blank" rel="noopener noreferrer">Jen Hay</a>,
             <a href="https://www.katiedrager.com" target="_blank" rel="noopener noreferrer">Katie Drager</a>, and
             <a href="https://sites.google.com/vt.edu/abbyjwalker" target="_blank" rel="noopener noreferrer">Abby Walker</a>,
-            all of whom appear in an expanded 
-            <a href="https://academictree.org/linguistics/tree.php?pid=76558&fontsize=1&pnodecount=4&cnodecount=2" target="_blank" rel="noopener noreferrer">LinguisTree</a>, centered on Jen Hay.
+            all of whom appear in an expanded
+            <a href="https://academictree.org/linguistics/tree.php?pid=76558&fontsize=1&pnodecount=4&cnodecount=2" target="_blank" rel="noopener noreferrer">Linguistree</a>, centered on Jen Hay.
           </p>
 
           <figure>
-            <img src="lineage.jpg" alt="Academic lineage" style="width:100%; max-width:700px;">
-            <figcaption style="text-align: center;">My academic lineage.</figcaption>
+            <img src="lineage.jpg" alt="Academic lineage">
+            <figcaption>My academic lineage.</figcaption>
           </figure>
-          
         </div>
 
         <div class="timeline-item">
           <div class="timeline-year">2018-2019</div>
           <div class="timeline-title">Postdoctoral Researcher, Hanyang University</div>
           <p>
-            I worked as Research Assistant Professor at the <a href="https://tcho.hanyang.ac.kr/web/hipcs/about-hipcs" target="_blank" rel="noopener noreferrer">Hanyang Institute for Phonetics and Cognitive Sciences of Language (HIPCS).</a>
+            I worked as Research Assistant Professor at the <a href="https://tcho.hanyang.ac.kr/web/hipcs/about-hipcs" target="_blank" rel="noopener noreferrer">Hanyang Institute for Phonetics and Cognitive Sciences of Language (HIPCS)</a>.
           </p>
           <p>
-            Under the supervision of <a href="https://tcho.hanyang.ac.kr/home" target="_blank" rel="noopener noreferrer">Professor Taehong Cho</a> and 
-            <a href="https://sahyangkim.weebly.com/" target="_blank" rel="noopener noreferrer">Professor Sahyang Kim</a>, 
+            Under the supervision of <a href="https://tcho.hanyang.ac.kr/home" target="_blank" rel="noopener noreferrer">Professor Taehong Cho</a> and
+            <a href="https://sahyangkim.weebly.com/" target="_blank" rel="noopener noreferrer">Professor Sahyang Kim</a>,
             my postdoctoral research explored the articulatory aspect of phonetic grammar, focusing on how low-level kinematic processes are modulated by higher-level cognitive and prosodic functions.
-            Using Electromagnetic Articulography (EMA), our research team examined temporal adjustment and articulatory strengthening patterns of gestural movements at different levels of rhythmic junctures 
-            (see <a href="https://www.journal-labphon.org/article/id/9880//" target="_blank" rel="noopener noreferrer">Kim, Kim, & Cho (2024)</a>.
+            Using Electromagnetic Articulography (EMA), our research team examined temporal adjustment and articulatory strengthening patterns of gestural movements at different levels of rhythmic junctures
+            (see <a href="https://www.journal-labphon.org/article/id/9880/" target="_blank" rel="noopener noreferrer">Kim, Kim, &amp; Cho (2024)</a>).
           </p>
         </div>
 
         <div class="timeline-item">
           <div class="timeline-year">2019-2023</div>
           <div class="timeline-title">Assistant Professor, Pusan National University</div>
-                      
+        </div>
+
         <div class="timeline-item">
           <div class="timeline-year">2023-present</div>
           <div class="timeline-title">Associate Professor, Pusan National University</div>
