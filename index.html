@@ -154,21 +154,42 @@
       .card {
         padding: 30px 24px;
       }
-      .cv {
-        margin-top: 20px;
+      .position-list {
+        margin-top: 24px;
       }
-      .cv-item {
+      .position-item {
         display: grid;
-        grid-template-columns: 180px 1fr;
-        gap: 16px;
-        margin-bottom: 18px;
+        grid-template-columns: 220px 1fr;
+        column-gap: 26px;
+        align-items: start;
+        margin-bottom: 22px;
       }
-      .cv-date {
-        font-weight: 600;
-        color: #444;
-      }
-      .cv-desc {
+      .position-date {
+        font-size: 0.98rem;
+        color: #555;
         line-height: 1.6;
+        white-space: nowrap;
+      }
+      .position-detail {
+        font-size: 1rem;
+        line-height: 1.75;
+      }
+      .position-detail a {
+        color: #1f4fa3;
+        text-decoration: none;
+      }
+      .position-detail a:hover {
+        text-decoration: underline;
+      }
+      @media (max-width: 900px) {
+        .position-item {
+          grid-template-columns: 1fr;
+          row-gap: 4px;
+        }
+        .position-date {
+          white-space: normal;
+          font-weight: 600;
+        }
       }
     }
   </style>
@@ -207,40 +228,39 @@
         <p>
           I’m Jonny Kim, a linguist specializing in experimental phonetics. My research focuses on sociophonetic variation, speech perception, and the interaction between phonetic detail and social meaning. <br>
 
-         <div class="cv">
-           <div class="cv-item">
-             <div class="cv-date">September 2023 – present</div>
-             <div class="cv-desc">
-               Associate Professor at the 
-               <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank">Department of English Language and Literature</a>, 
-               <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank">Pusan National University, Korea</a>
+         <div class="position-list">
+           <div class="position-item">
+             <div class="position-date">September 2023 – present</div>
+             <div class="position-detail">
+               Associate Professor at the
+               <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a>,
+               <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University, Korea</a>
              </div>
            </div>
            
-           <div class="cv-item">
-             <div class="cv-date">September 2019 – August 2023</div>
-             <div class="cv-desc">
-               Assistant Professor at the Department of English Language and Literature, Pusan National University, Korea
+           <div class="position-item">
+             <div class="position-date">September 2019 – August 2023</div>
+             <div class="position-detail">
+               Assistant Professor at the
+               <a href="https://pnuenglish.pusan.ac.kr/pnuenglish/index.do" target="_blank" rel="noopener noreferrer">Department of English Language and Literature</a>,
+               <a href="https://www.pusan.ac.kr/kor/intro.do" target="_blank" rel="noopener noreferrer">Pusan National University, Korea</a>
              </div>
            </div>
            
-           <div class="cv-item">
-             <div class="cv-date">April 2018 – August 2019</div>
-             <div class="cv-desc">
-               Research Assistant Professor at 
-               <a href="https://tcho.hanyang.ac.kr/web/hipcs/about-hipcs" target="_blank">
-                 Hanyang Institute for Phonetics and Cognitive Sciences of Language (HIPCS)
-               </a>
+           <div class="position-item">
+             <div class="position-date">April 2018 – August 2019</div>
+             <div class="position-detail">
+               Research Assistant Professor at
+               <a href="https://tcho.hanyang.ac.kr/web/hipcs/about-hipcs" target="_blank" rel="noopener noreferrer">Hanyang Institute for Phonetics and Cognitive Sciences of Language (HIPCS)</a>
              </div>
            </div>
            
-           <div class="cv-item">
-             <div class="cv-date">August 2011 – May 2018</div>
-             <div class="cv-desc">
-               Ph.D. in linguistics at the 
-               <a href="https://manoa.hawaii.edu/graduate/linguistics/" target="_blank">Department of Linguistics</a>, 
-               <a href="https://manoa.hawaii.edu/" target="_blank">University of Hawai‘i at Mānoa
-               </a>
+           <div class="position-item">
+             <div class="position-date">August 2011 – May 2018</div>
+             <div class="position-detail">
+               Ph.D. in linguistics at the
+               <a href="https://manoa.hawaii.edu/graduate/linguistics/" target="_blank" rel="noopener noreferrer">Department of Linguistics</a>,
+               <a href="https://manoa.hawaii.edu/" target="_blank" rel="noopener noreferrer">University of Hawai‘i at Mānoa</a>
              </div>
            </div>
          </div>
